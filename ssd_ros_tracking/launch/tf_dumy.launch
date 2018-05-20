@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="map_base" args="0 0.0 0 0 0 0 map matching_base_link 100" />
+    <node pkg="tf" type="static_transform_publisher" name="base_velodyne" args="0 0.0 0 0 0 0 matching_base_link velodyne 100" />
+
+</launch>

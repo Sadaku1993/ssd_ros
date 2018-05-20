@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<launch>
+    <arg name="stdout" default="screen" />
+    
+    <!--node pkg="tf" type="static_transform_publisher" name="velodyne_zed" args="0.1181 0 -0.120 0 0 0 velodyne zed_center 10"/-->
+    <node pkg="tf" type="static_transform_publisher" name="velodyne_zed" args="0.35 0.05 -0.30 0 0 0 velodyne zed_center 100"/>
+
+</launch>

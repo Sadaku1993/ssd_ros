@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="ssd_tf" pkg="ssd_ros_tracking" type="ssd_tf" output="screen"/>
+    <node name="ssd_sub" pkg="ssd_ros_tracking" type="ssd_sub"/>
+    <!--node name="ssd_sub" pkg="ssd_ros_tracking" type="ssd_sub" output="screen"/-->
+</launch>
